@@ -7,7 +7,6 @@ export {}
 
 declare module 'vue' {
   export interface GlobalComponents {
-    CardContent: typeof import('./src/components/card/src/card-content.vue')['default']
     CardItem: typeof import('./src/components/card/src/card-item.vue')['default']
     ContentItem: typeof import('./src/components/card/src/content-item.vue')['default']
     DateItem: typeof import('./src/components/card/src/date-item.vue')['default']
